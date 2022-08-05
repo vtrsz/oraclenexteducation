@@ -1,0 +1,22 @@
+var canvas = document.querySelector("canvas");
+var brush = canvas.getContext("2d");
+brush.fillStyle = "lightgrey";
+brush.fillRect(0, 0, 600, 600);
+
+brush.fillStyle = "green";
+brush.fillRect(0, 0, 200, 400);
+
+brush.fillStyle = "red";
+brush.fillRect(400, 0, 200, 400)
+
+brush.fillStyle = "yellow";
+brush.beginPath();
+brush.moveTo(300, 200);
+brush.lineTo(200, 400);
+brush.lineTo(400, 400);
+brush.fill();
+
+brush.fillStyle = "blue";
+brush.beginPath();
+brush.arc(300, 200, 50, 0, 2 * Math.PI);
+brush.fill();

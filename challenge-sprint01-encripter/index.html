@@ -1,0 +1,45 @@
+<!doctype html>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+
+<html lang="pt-BR">
+    <title>Desencriptador</title>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" id="background">
+            <div class="main">
+                <div class="top">
+                    <img src="assets/alura.svg" alt="Alura" class="logo-alura">
+                    <textarea class="input" title="Coloque o texto aqui" type="text" id="input" placeholder="Texto" ></textarea>
+                </div>
+                <div class="btn-main">
+                    <button class="btn" id="encrypt">Encriptar</button>
+                    <button class="btn" id="decrypt">Desencriptar</button>
+                </div>
+                <div class="credits">
+                    <p id="developer">Desenvolvido por Vítor Souza Ribeiro<br><a href="https://www.linkedin.com/in/vtrsz/" rel="noopener" target="_blank">LinkedIn</a> - <a href="https://github.com/vtrsz" rel="noopener" target="_blank">GitHub</a></p>
+                </div>
+            </div>
+            <div class="actions">
+                <div class="outputs">
+                    <div class="notfound" id="notfound">
+                        <img src="assets/notfound.svg" alt="" id="notfound-img">
+                        <p><b>Nenhuma mensagem encontrada!</b></p>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                    <p id="output"></textarea>
+                    <div class="btn-actions" id="btn-actions">
+                        <p id="copy-alert"></p>
+                        <button class="btn" id="copy">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/encrypter.js"></script>
+    </body>
+</html>

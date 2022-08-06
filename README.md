@@ -26,5 +26,9 @@ Olá, meu nome é **Vítor Souza** e estou na **turma 3** do projeto da  **Oracl
  - [ ] Git e Github: controle e compartilhe seu código
  ---
  
+ ## Challenges
+ - [x] [(De)Codificador de texto em JavaScript](https://vtrsz.github.io/challenge-encripter/)
+ ---
+ 
  
  ###### OBS: Repositório em desenvolvimento de acordo com o andamento do curso.
